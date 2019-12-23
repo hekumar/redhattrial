@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
    // res.sendfile(path.join(__dirname, "../templateapp/dist/templateapp/index.html"));
    res.end("Hello World");
 });
+/*
 var template_start = `<!DOCTYPE html>
 <html>
 <head>
@@ -51,6 +52,7 @@ app.get("/html/welcome", (req, res) => {
     res.sendfile(__dirname + '/welcomeScreen.html');
 
 });
+*/
 
 app.use(router)
 app.listen(8080, () => {
